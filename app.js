@@ -76,6 +76,7 @@ app.get('/users', (req, res) => {
     });
 });
 // Rota para criar as pastas para um novo usuário
+
 app.post('/criar-pastas/:nomeUsuario', (req, res) => {
     const nomeUsuario = req.params.nomeUsuario;
 

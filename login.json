@@ -31,8 +31,13 @@
     },
     {
         "usuario": "jana",
-        "senha": "123",
-        "tokens": [],
+        "senha": "namoradadomestrwe",
+        "tokens": [
+            "./imagens/jana/tokens/LOGO-rpgdosmanos.png",
+            "./imagens/jana/tokens/token_1.webp",
+            "./imagens/jana/tokens/token_2.webp",
+            "./imagens/jana/tokens/token_3.webp"
+        ],
         "perfil": ""
     },
     {
