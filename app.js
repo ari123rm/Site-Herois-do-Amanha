@@ -93,10 +93,7 @@ app.post('/criar-pastas/:nomeUsuario', (req, res) => {
 app.listen(PORT, () => {
     console.log(`Servidor rodando em http://localhost:${PORT}`);
 });
-// Inicia o servidor
-app.listen(PORT, () => {
-    console.log(`Servidor rodando em http://localhost:${PORT}`);
-});
+
 
 // Função para ler o arquivo JSON
 function ler_json() {
