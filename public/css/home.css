@@ -336,7 +336,6 @@
     margin-right: 10px;
     width: 300px;
     height: 300px;
-    display: flex;
     text-align: justify;
     border: 1px solid white;
     background-image: linear-gradient(180deg, #dafdff 0, #afe7ff 16.67%, #7ecefb 33.33%, #3cb5f2 50%, #009ce9 66.67%, #0084e0 83.33%, #006ed7 100%);    justify-content: center;
@@ -346,12 +345,15 @@
     margin-bottom: 10px;
 }
 #jogadores .cards .img-box{
-    position:absolute;
+    position:relative;
     transition: 0.5s;
-    display: inline-block;
+    opacity: 1;
+    display:contents;
 }
 #jogadores .cards:hover .img-box {
     height: 0px;
+    opacity: 0;
+
 }
 #jogadores .cards .img-box img{
     width: 300px;
@@ -359,19 +361,18 @@
    object-fit: cover;
    border-radius: 20px;
    transition: 0.5s;
-   position: relative;
+   position: absolute;
 }
 #jogadores .cards:hover .img-box img{
     height: 0px;
-    top:-100;
-    position: relative;
-  
+
+    object-fit: cover;
 }
 #jogadores .cards .img-box h3{
-    position: absolute;
-    text-align: center;
-    display:flexbox;
+    position:relative;
+    text-align: left;
     margin-top:0;
+    object-fit: cover;
     font-size: 32px;
     margin-bottom: 0;
     margin-left: auto;
@@ -382,7 +383,16 @@
     text-shadow: 0px 0 5px black;
 }
 #jogadores .cards:hover .img-box h3{
-    visibility: hidden;
+
+    font-size: 0;
+}
+#jogadores .cards .content{
+    position:static;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    top:0;
 }
 #jogadores .cards .content h3{
     text-align: center;

@@ -7,6 +7,7 @@
   <title>Heróis do Amanhã 2</title>
   <link rel="stylesheet" type="text/css" href="/css/home.css" media="screen" />
   <link rel="shortcut icon" href="/imagens/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="/css/game.css" media="screen">
 
 </head>
 <body>
@@ -101,6 +102,7 @@
         </nav>    
     </header>
     <main>
+        
         <div id="lore">
             <h2>História</h2>
             <div>
@@ -378,7 +380,7 @@
                 <li>
                     <h3>Terra 3</h3>
                     <div>
-                        <p class = "desc-terra">Desconhecido!</p>
+                        <p class = "desc-terra">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur error voluptatibus asperiores perspiciatis eaque consectetur saepe aut placeat numquam, deserunt tempore. Optio perspiciatis assumenda sequi vero ab qui quidem nihil. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum expedita hic labore et vero omnis voluptatibus? Architecto corrupti in repudiandae sint, maxime iure quaerat nisi dolorum error dolor ab voluptates.</p>
                         <img src="/imagens/interrogacao.jpg" alt="">
                     </div>
                 </li>
@@ -440,6 +442,29 @@
                 </li>
             </ul>
         </div>
+        <a id = "open-game" href="#joguinho"><img src="/imagens/game-icon.jpg" alt=""></a>
+        <div id = "joguinho">
+            
+            <div id="game">
+                <div id="stats">
+                <span class="stat">XP: <strong><span id="xpText">0</span></strong></span>
+                <span class="stat">Health: <strong><span id="healthText">100</span></strong></span>
+                <span class="stat">Gold: <strong><span id="goldText">50</span></strong></span>
+                </div>
+                <div id="controls">
+                <button id="button1">Go to store</button>
+                <button id="button2">Go to cave</button>
+                <button id="button3">Fight dragon</button>
+                </div>
+                <div id="monsterStats">
+                <span class="stat">Monster Name: <strong><span id="monsterName"></span></strong></span>
+                <span class="stat">Health: <strong><span id="monsterHealth"></span></strong></span>
+                </div>
+                <div id="textgame">
+                Welcome to Dragon Repeller. You must defeat the dragon that is preventing people from leaving the town. You are in the town square. Where do you want to go? Use the buttons above.
+                </div>
+            </div>
+        </div>
     </main>
     <footer class = "rodape">
         <div>
@@ -477,6 +502,7 @@
         </div>
 
     </footer>
+    <script type="text/javascript" src="/js/script-game.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
     <script type="text/javascript" src="/js/home.js"></script>
     <script type="module" src = "/js/login.js"></script>

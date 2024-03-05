@@ -55,8 +55,13 @@
     {
         "usuario": "ariel",
         "senha": "123",
-        "tokens": [],
-        "perfil": "http://localhost:3000/imagens/ariel/tokens/token_1.webp"
+        "tokens": [
+            "./imagens/ariel/tokens/LOGO-rpgdosmanos.png",
+            "./imagens/ariel/tokens/token_1.webp",
+            "./imagens/ariel/tokens/token_2.webp",
+            "./imagens/ariel/tokens/token_3.webp"
+        ],
+        "perfil": "http://localhost:3000/imagens/ariel/tokens/token_3.webp"
     },
     {
         "usuario": "teste",
