@@ -1,0 +1,62 @@
+[
+    {
+        "usuario": "santabaia",
+        "senha": "123",
+        "tokens": [],
+        "perfil": ""
+    },
+    {
+        "usuario": "catunda",
+        "senha": "123",
+        "tokens": [],
+        "perfil": ""
+    },
+    {
+        "usuario": "luan",
+        "senha": "123",
+        "tokens": [],
+        "perfil": ""
+    },
+    {
+        "usuario": "logan",
+        "senha": "123",
+        "tokens": [],
+        "perfil": ""
+    },
+    {
+        "usuario": "pit",
+        "senha": "123",
+        "tokens": [],
+        "perfil": "http://localhost:3000/imagens/pit/tokens/token_2.webp"
+    },
+    {
+        "usuario": "jana",
+        "senha": "123",
+        "tokens": [],
+        "perfil": ""
+    },
+    {
+        "usuario": "dede",
+        "senha": "123",
+        "tokens": [],
+        "perfil": "http://localhost:3000/imagens/dede/tokens/token_3.webp"
+    },
+    {
+        "usuario": "ryan",
+        "senha": "123",
+        "tokens": [],
+        "perfil": "http://localhost:3000/imagens/ryan/tokens/token_3.webp"
+    },
+    {
+        "usuario": "ariel",
+        "senha": "123",
+        "tokens": [],
+        "perfil": "http://localhost:3000/imagens/ariel/tokens/token_1.webp"
+    },
+    {
+        "usuario": "teste",
+        "senha": "123",
+        "tokens": [],
+        "perfil": ""
+    }
+]

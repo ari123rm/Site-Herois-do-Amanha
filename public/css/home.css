@@ -1,0 +1,588 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho{
+    background-color: #020202;
+    margin-bottom: 0;
+    width: 100%;
+}
+.cabecalho-imagens{
+    display: flex;
+    padding:10px;
+    width: 100%;
+    position: relative;
+}
+.cabecalho-imagens .home{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+}   
+.cabecalho-imagens .marca-dagua{
+    width: 200px;
+    height: 200px;
+    position:absolute;
+
+}
+.cabecalho-imagens .center{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+    right: 50%;
+    left: 50%;
+    width: 100%;
+}
+.cabecalho-imagens #login{
+    text-align: right;
+    margin: 50px;
+    position: absolute;
+    align-self: right;
+    right: 0;
+    top:0;
+    padding: 10px;
+    width: auto;
+    background-color: white;
+    border-radius: 100%;
+    border-color: gray;
+}
+.cabecalho-imagens button img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.cabecalho .titulos{
+    display: inline;
+    font-family: Impact;
+    font-weight: lighter;
+    font-size: 42px;
+    width: auto;
+    text-align: center;
+    align-items:flex-end;
+}
+.cabecalho .titulos ul{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+.cabecalho .titulos li{
+    display: inline;
+    margin-right: 30px;
+    padding: 10px;
+}
+.cabecalho .titulos li a{
+    text-decoration: none;
+    color: lightyellow;
+}
+.cabecalho .titulos li:hover{
+    background-color: #101010;
+}
+
+#tela-login{
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    right: 0;
+    background-color: white;
+    margin-top: 150px;
+    margin-right: 50px;
+    display: none;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid darkslategrey;
+}
+#tela-login ul{
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-right: 10%;
+}
+#tela-login ul li{
+    margin-bottom: 5%;
+}
+#tela-login ul li h4{
+    text-align: left;
+    font-size: 20px;
+    font-family: Impact;
+    font-weight: lighter;
+}
+#tela-login ul li input{
+    height: 25px;
+    width: 100%;
+    font-size: 16px;
+}
+#tela-login ul #login-button{
+    display: grid;
+    margin-bottom: 5%;
+    text-align: center;
+    width: 100%;
+    justify-items: center;
+}
+#tela-login ul li #entrar{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    width: 100%;
+}
+#tela-login ul li #registro-display{
+    margin-bottom: 5%;
+    padding: 5px;
+    font-weight: lighter;
+    font-size: 12px;
+    background-color: grey;
+    color: white;
+    display:block;
+    width: 50%;
+    margin-top: 2%;
+}
+#tela-login #logout{
+    display: none;
+    width: 100%;
+    height: 100%;
+    margin:0;
+    justify-content: center;
+    text-align: center;
+}
+#tela-login #logout li{
+    margin:0;
+}
+#tela-login #logout p{
+    font-weight: lighter;
+    font-family: Impact;
+    margin-top: 5%;
+    font-size: 32px;
+    margin-bottom: 2%;
+}
+#tela-login #logout #imagem-perfil{
+    margin: 0;
+}
+#tela-login #logout #imagem-perfil button{
+    border-radius: 100%;
+    border: 1px solid black;
+}
+#tela-login #logout #imagem-perfil .tokens{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+#tela-login #logout #logado-buttons{
+    display: inline;
+    bottom:0;
+}
+#tela-login #logout #logado-buttons button{
+    width: 50%;
+    margin-top: 2%;
+
+}
+#tela-login #logout #logout-button{
+    bottom: 20%;
+    padding: 10px;
+    font-weight: lighter;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+}
+#tela-login #logout #change-password{
+    margin-bottom: 5%;
+    padding: 5px;
+    font-weight: lighter;
+    font-size: 12px;
+    background-color: grey;
+    color: white;
+}
+#tela-login #mudar_senha{
+    display: none;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-right: 10%;
+}
+#tela-login #mudar_senha #butoes_mudar_senha{
+    display: grid;
+    margin-bottom: 5%;
+    text-align: center;
+    width: 100%;
+    justify-items: center;
+}
+#tela-login #mudar_senha #mudarSenha{
+    margin-bottom: 5%;
+    padding: 5px;
+    font-weight: lighter;
+    font-size: 12px;
+    background-color: red;
+    color: white;
+    display:block;
+    width: 50%;
+}
+#tela-login #mudar_senha #voltarLogout{
+    margin-bottom: 5%;
+    padding: 5px;
+    font-weight: lighter;
+    font-size: 20px;
+    background-color: grey;
+    color: white;
+    width: 100%;
+}
+#tela-login #register{
+    display: none;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-right: 10%;
+}
+#tela-login #register li h4{
+    text-align: left;
+    font-size: 20px;
+    font-family: Impact;
+    font-weight: lighter;
+}
+#tela-login #register #register-button{
+    display: grid;
+    margin-bottom: 5%;
+    text-align: center;
+    width: 100%;
+    justify-items: center;
+}
+#tela-login #register #register-button #registrar{
+    margin-bottom: 5%;
+    padding: 5px;
+    font-weight: lighter;
+    font-size: 12px;
+    background-color: red;
+    color: white;
+    display:block;
+    width: 50%;
+}
+#tela-login #register #register-button #voltarLogoutRegister{
+    margin-bottom: 5%;
+    padding: 5px;
+    font-weight: lighter;
+    font-size: 12px;
+    background-color: grey;
+    color: white;
+    width: 100%;
+}
+.nome{
+    font-weight: lighter;
+}
+
+
+#lore{
+    background-color: aliceblue;
+    color: black;
+    margin-top: 0;
+    padding-top: 0;
+    font-family: fantasy ;
+    padding-bottom: 10px;
+}
+#lore h2{
+    display: block;
+    font-size: 42px;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 10px;
+
+}
+#lore div{
+    display: flex;
+}
+#lore div p{
+    display:block;
+    text-align: justify;
+    font-size: 20px;
+    padding-left: 25px;
+    margin-right: 20px;
+    margin-top: 0px;
+    width: 50%;
+}
+#lore div iframe{
+    text-align: right;
+    justify-content: right;
+    justify-self: center;
+    width: 670px;
+    height: 350px;
+    margin-right: 20px;
+    
+}
+
+#jogadores{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,62,121,1) 0%, rgba(8,81,138,1) 0%, rgba(8,81,138,1) 0%, rgba(8,81,138,1) 1%, rgba(8,115,140,1) 11%, rgba(0,212,255,1) 87%, rgba(0,212,255,1) 93%, rgba(0,212,255,1) 97%, rgba(255,255,255,1) 100%);
+    font-family: impact;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color: black;
+}
+#jogadores h2{
+    display: block;
+    font-size: 42px;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    color:lightgoldenrodyellow;
+    font-weight: lighter;
+}
+#jogadores ul{
+    margin-bottom: 0;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+#jogadores .cards{
+    margin-top: 0;
+    margin-right: 10px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    text-align: justify;
+    border: 1px solid white;
+    background-image: linear-gradient(180deg, #dafdff 0, #afe7ff 16.67%, #7ecefb 33.33%, #3cb5f2 50%, #009ce9 66.67%, #0084e0 83.33%, #006ed7 100%);    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0px 35px 80px rgba(0,0, 0, 0.15);
+    transition: 0.5s;
+    margin-bottom: 10px;
+}
+#jogadores .cards .img-box{
+    position:absolute;
+    transition: 0.5s;
+    display: inline-block;
+}
+#jogadores .cards:hover .img-box {
+    height: 0px;
+}
+#jogadores .cards .img-box img{
+    width: 300px;
+    height: 300px;
+   object-fit: cover;
+   border-radius: 20px;
+   transition: 0.5s;
+   position: relative;
+}
+#jogadores .cards:hover .img-box img{
+    height: 0px;
+    top:-100;
+    position: relative;
+  
+}
+#jogadores .cards .img-box h3{
+    position: absolute;
+    text-align: center;
+    display:flexbox;
+    margin-top:0;
+    font-size: 32px;
+    margin-bottom: 0;
+    margin-left: auto;
+    bottom: 0;
+    margin-left: 10px;
+    color: lightgoldenrodyellow;
+    font-weight: lighter;
+    text-shadow: 0px 0 5px black;
+}
+#jogadores .cards:hover .img-box h3{
+    visibility: hidden;
+}
+#jogadores .cards .content h3{
+    text-align: center;
+    font-size: 32px;
+    color:black;
+    font-weight: lighter;
+    padding-top: 20px;
+}
+#jogadores .cards .content p{
+    text-align: justify;
+    margin: 10px;
+    font-size: 16px;
+}
+#jogadores .cards .content .saiba-mais{
+    text-align: center;
+    font-size: 26px;
+    height: 50px;
+    width:50px;
+    color: lightgoldenrodyellow;
+    font-weight: lighter;
+    background-color: brown;
+    border: 1px solid darkred;
+    text-decoration: none;
+    padding: 5px;
+}
+
+#personagens{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(39,9,121,1) 0%, rgba(5,63,152,1) 68%);
+    color: lightgoldenrodyellow;
+    margin-top: 0;
+    padding-top: 0;
+    font-family: fantasy ;
+    margin-bottom: 0px;
+    
+}
+#personagens h2{
+    display: block;
+    color: lightgoldenrodyellow;
+    font-weight: normal;
+    font-size: 42px;
+    text-align: center;
+    margin-top: 0;
+}
+#personagens ul{
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+#personagens ul li h3{
+    color: lightgoldenrodyellow;
+    font-weight:normal;
+    font-size: 32px;
+    color: white;
+    display: block;
+    margin-bottom: 0px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#personagens ul li div{
+    display: inline-flex;
+    width: 100%;
+}
+#personagens ul li p{
+    display: inline-block;
+    text-align: justify;
+    font-size: 20px;
+    padding-left: 25px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+}
+#personagens ul li .imagem-personagens{
+    text-align: right;
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    border-radius: 50px;
+}
+
+#terras{
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: rgb(2,0,36);
+    background: linear-gradient(105deg, rgba(2,0,36,1) 0%, rgba(3,5,70,1) 26%, rgba(39,9,121,1) 49%, rgba(15,6,87,1) 78%, rgba(26,9,163,1) 92%);
+    font-family: Impact;
+    color:aliceblue;
+    width: 100%;
+    
+}
+#terras h2{
+    margin-top:0px;
+    padding-top: 25px;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 42px;
+}
+#terras ul{
+    padding-left: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+#terras ul li h3{
+    font-weight: lighter;
+    font-size: 32px;
+    margin-bottom: 0px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+}
+#terras ul li div{
+    display: inline-flex;
+    width: 100%;
+}
+#terras ul li div p{
+    padding-left: 25px;
+    text-align: justify;
+    margin-right: 20px;
+    font-size: 20px;
+    width: 80%;
+}
+#terras ul li div img{
+    text-align: right;
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+    border-radius: 50px;
+}
+
+
+.rodape{
+    margin:0;
+    padding: 0;
+    background-color: #020202;
+    font-family: Impact;
+    font-weight: lighter;
+}
+.rodape div{
+    display: inline-flexbox;
+    margin: 0px;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    padding-top: 10px;
+    
+}
+.rodape div p{
+    padding-top: 0px;
+    font-family: 'Times New Roman';
+}
+.rodape .marca-dagua{
+    width: 200px;
+    height: 200px;
+    
+}
+.rodape .contato{
+    display: inline-flex;
+    width: 100%;
+}
+.rodape .contato .redes-sociais{
+    text-align: left;
+    font-size: 12px;
+    font-weight: lighter;
+    margin-left: 0px;
+    margin-bottom:0 ;
+    width: 50%;
+    
+}
+.rodape .contato .redes-sociais li{
+    display: flex;
+    margin-left: 0;
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+.rodape .contato .redes-sociais li a{
+    text-decoration:none;
+    color:lightgoldenrodyellow;
+    display: flex;
+}
+.rodape .contato .redes-sociais li img{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+}
+.rodape .contato .redes-sociais li h3{
+    font-weight: lighter;
+    margin: 0;
+    top:20;
+    margin-left: 2px;
+}
+.rodape .contato .email{
+    text-align: right;
+    font-size: 12px;
+}
+.rodape .contato .email a{
+    color: cyan;
+    text-decoration:underline;
+}

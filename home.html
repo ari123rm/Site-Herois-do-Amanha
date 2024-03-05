@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+</html>
+<head>
+  <meta charset="UTF-8">
+</meta>
+  <title>Heróis do Amanhã 2</title>
+  <link rel="stylesheet" type="text/css" href="/css/home.css" media="screen" />
+  <link rel="shortcut icon" href="/imagens/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+    <header class = "cabecalho">
+        <div class = "cabecalho-imagens">
+            
+            <div class = "center">
+                <img src="/imagens/Capa-herois.png" id="capa-herois">
+            </div>
+            <a href="#" class = "home">
+                <img src="/imagens/LOGO-rpgdosmanos-semfundo.png" class = "marca-dagua">
+            </a>
+            <button id = "login"><img src="/imagens/login.png"></button>
+            <div id = "tela-login">
+                <ul type = "none" id = "inputs">
+                    
+                        <li>
+                            <h4>USUARIO:</h4>
+                            <input type="text" id="inputUsuario">
+                        </li>
+                        <li>
+                            <h4>SENHA:</h4>
+                            <input type="text" id ="inputSenha">
+                        </li>
+                        <li id = "login-button">
+                            <button id="entrar">Entrar</button>
+                            <button id = "registro-display">Sem cadastro?</button>
+                        </li>
+                    
+                </ul>
+                <ul type = "none" id = "logout">
+                    <li>
+                        <p>Bem vindo, <strong class="nome"></strong>.</p>
+                    </li>
+                    <li id = "imagem-perfil">
+                        <button id="token_0"><img  class="tokens"></button>
+                        <button id="token_1"><img  class="tokens"></button>
+                        <button id="token_2"><img  class="tokens"></button>
+                        <button id="token_3"><img  class="tokens"></button>
+                    </li>
+                    <li id = "logado-buttons">
+                        <button id = "logout-button">Sair</button>
+                        <button id = "change-password">Mudar senha</button>
+                    </li>        
+                </ul>
+                <ul type = "none" id = "mudar_senha">
+                    
+                        <li>
+                            <h4>NOVA SENHA:</h4>
+                            <input type="text" id="mudarSenha1">
+                        </li>
+                        <li>
+                            <h4>CONFIRMAR SENHA:</h4>
+                            <input type="text" id ="mudarSenha2">
+                        </li>
+                        <li id = "butoes_mudar_senha">
+                            <button id="mudarSenha">Mudar Senha</button>
+                            <button id = "voltarLogout">Voltar</button>
+                        </li>
+                    
+                </ul>
+                <ul type = "none" id = "register">
+                    
+                    <li>
+                        <h4>SEU NOVO USUARIO:</h4>
+                        <input type="text" id="registerUsuario">
+                    </li>
+                    <li>
+                        <h4>SUA SENHA:</h4>
+                        <input type="text" id ="registerSenha1">
+                    </li>
+                    <li>
+                        <h4>CONFIRMAR SUA SENHA:</h4>
+                        <input type="text" id ="registerSenha2">
+                    </li>
+                    
+                    <li id = "register-button">
+                        <button id = "registrar">Registrar</button>
+                        <button id = "voltarLogoutRegister">Voltar</button>
+                    </li>
+                
+            </ul>
+            </div>
+        </div>
+        <nav class = "titulos">
+            <ul type = "none">
+                <li> <a href="#lore" text-decoration = "none"> História </a></li>
+                <li> <a href="#jogadores" text-decoration = "none"> Jogadores </a></li>
+                <li> <a href="#personagens" text-decoration = "none"> Personagens </a></li>
+                <li> <a href="#terras" text-decoration = "none"> A.R.T </a></li>
+            </ul>
+        </nav>    
+    </header>
+    <main>
+        <div id="lore">
+            <h2>História</h2>
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A quibusdam illum repudiandae quisquam in aspernatur modi nobis ut at molestias consectetur odio, aperiam dicta corrupti! Nisi perspiciatis eius cumque possimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto impedit velit inventore veritatis? Eum minima delectus odio omnis corrupti debitis? Perspiciatis, eaque hic? Placeat quo exercitationem doloremque vel dolorem ipsam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum similique eum facere ipsam reiciendis adipisci quam libero optio quas earum, beatae suscipit quos nobis quisquam architecto! Asperiores ipsum cum est. Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ipsum, vero cum facere placeat ipsam aut iste natus eveniet, eius animi ipsa ad quod iure? Nobis dolorum tenetur nihil sunt. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint iste neque, laudantium corporis laboriosam numquam impedit, esse architecto excepturi quo ipsum animi libero tempore a deleniti rerum, odio dignissimos nihil.</p>
+                <iframe width="670" height="377" src="https://www.youtube.com/embed/Q-uhkSsEucE" title="Trailer Season 2 Heróis do Amanhã: As novas lendas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>         
+            </div>
+        </div>
+        <div id ="jogadores">
+            <h2>Jogadores</h2>
+            <ul type = "none">
+                <li class="cards">
+                    <div class="img-box" display = "block">
+                        <img src="/imagens/ariel/ariel.png">
+                        <h3>Ariel</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Ariel</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat deleniti labore itaque nam magni sint necessitatibus doloremque rerum sapiente. Eum minus suscipit corporis dolore deleniti quam quas perferendis hic impedit.</p>
+                        <h3><a href="" class ="saiba-mais">Personagem</a></h3>
+                    </div>
+                </li>
+                <li class="cards">
+                    <div class="img-box">
+                        <img src="/imagens/catunda/catunda.Avatar.webp">
+                        <h3>Catunda</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Catunda</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat deleniti labore itaque nam magni sint necessitatibus doloremque rerum sapiente. Eum minus suscipit corporis dolore deleniti quam quas perferendis hic impedit.</p>
+                        <h3><a href="#denji" class ="saiba-mais">Personagem</a></h3>
+                    </div>
+                </li>
+                <li class="cards">
+                    <div class="img-box">
+                        <img src="/imagens/luan/luan.Avatar.webp">
+                        <h3>Luan</h2>
+                    </div>
+                    <div>
+                    <div class="content">
+                        <h3>Luan</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat deleniti labore itaque nam magni sint necessitatibus doloremque rerum sapiente. Eum minus suscipit corporis dolore deleniti quam quas perferendis hic impedit.</p>
+                    <h3><a href="#guto-barbosa" class = "saiba-mais">Personagem</a></h3>
+                    </div>
+                </li>
+                <li class="cards">
+                    <div class="img-box">
+                        <img src="/imagens/logan/logan.Avatar.webp">
+                        <h3>Logan</h2>
+                    </div>
+                    <div>
+                    <div class="content">
+                        <h3>Logan</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat deleniti labore itaque nam magni sint necessitatibus doloremque rerum sapiente. Eum minus suscipit corporis dolore deleniti quam quas perferendis hic impedit.</p>
+                    <h3><a href="#jason-osama" class = "saiba-mais">Personagem</a></h3>
+                    </div>
+                </li>
+                <li class="cards">
+                    <div class="img-box">
+                        <img src="/imagens/santabaia/santabaia.Avatar.webp">
+                        <h3>Santabaia</h2>
+                    </div>
+                    <div>
+                    <div class="content">
+                        <h3>Santabaia</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat deleniti labore itaque nam magni sint necessitatibus doloremque rerum sapiente. Eum minus suscipit corporis dolore deleniti quam quas perferendis hic impedit.</p>
+                    <h3><a href="#john-holly" class = "saiba-mais">Personagem</a></h3>
+                    </div>
+                </li>
+                <li class="cards">
+                    <div class="img-box">
+                        <img src="/imagens/dede/ded_.Avatar.webp">
+                        <h3>Dede</h2>
+                    </div>
+                    <div>
+                    <div class="content">
+                        <h3>Dede</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat deleniti labore itaque nam magni sint necessitatibus doloremque rerum sapiente. Eum minus suscipit corporis dolore deleniti quam quas perferendis hic impedit.</p>
+                    <h3><a href="#lupin-iii" class = "saiba-mais">Personagem</a></h3>
+                    </div>
+                </li>
+                <li class="cards">
+                    <div class="img-box">
+                        <img src="/imagens/jana/jana.png">
+                        <h3>Jana</h2>
+                    </div>
+                    <div>
+                    <div class="content">
+                        <h3>Jana</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat deleniti labore itaque nam magni sint necessitatibus doloremque rerum sapiente. Eum minus suscipit corporis dolore deleniti quam quas perferendis hic impedit.</p>
+                    <h3><a href="#mei-lin" class = "saiba-mais">Personagem</a></h3>
+                    </div>
+                </li>
+                <li class="cards">
+                    <div class="img-box">
+                        <img src="/imagens/ryan/ryan.Avatar.webp">
+                        <h3>Ryan</h2>
+                    </div>
+                    <div>
+                    <div class="content">
+                        <h3>Ryan</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat deleniti labore itaque nam magni sint necessitatibus doloremque rerum sapiente. Eum minus suscipit corporis dolore deleniti quam quas perferendis hic impedit.</p>
+                    <h3><a href="#santiago-constantine" class = "saiba-mais">Personagem</a></h3>
+                    </div>
+                </li>
+                <li class="cards">
+                    <div class="img-box">
+                        <img src="/imagens/pit/caio_pit.Avatar.webp">
+                        <h3>Caio Pit</h2>
+                    </div>
+                    <div>
+                    <div class="content">
+                        <h3>Caio Pit</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat deleniti labore itaque nam magni sint necessitatibus doloremque rerum sapiente. Eum minus suscipit corporis dolore deleniti quam quas perferendis hic impedit.</p>
+                    <h3><a href="#simon-newgate" class = "saiba-mais">Personagem</a></h3>
+                    </div>
+                </li>
+                
+            </ul>
+        </div>
+        <div id ="personagens">
+            <h2>Personagens:</h2>
+            <ul type ="none">
+                <li id ="denji">
+                    <h3>Denji Miyazaki</h3>
+                    <div>
+                        <p>Um rim foi 1,2 milhões, um olho foi 300k, a bola esquerda foi nem 100k. Mesmo assim, ainda devo 38,754 milhões pra yakuza, dívida que meu falecido pai tinha. Se matou enforcado quando eu tinha 11 anos. A partir de então venho fazendo bicos pra mafia, mas apesar disso, a minha maior renda fixa é cortar madeira. Motosserra. É isso, só queria ter uma vida normal tlgd. Transar uma gostosa seria o dream. Ter outros amigos além do Pochita, meu cachorro sigma. Comer bem. Só isso.</p>
+                        <img src="/imagens/catunda/denji.AvatarvA5FlPXYw34kyXK3.webp" alt="Denji" class = "imagem-personagens">
+                    </div>    
+                </li>
+                <hr>
+                <li id="guto-barbosa">
+                    <h3>Guto Barbosa</h3>
+                    <div>
+                    <p>Guto foi é um jovem adulto que mora sozinho, seu pai faleceu durante um assalto quando ele tinha 15 anos, desde então, guto resolveu começar a treinar artes marciais com espada para defesa própria.
+                        Guto é otaku 👓🤓
+                        Cyberpunk: Sem rumo e traumatizado, Guto procura por qualquer forma de sustento, entrado para a perigosa rotina de solo. Após os acontecimentos da última missão, guto se encontra abtido, seus valores foram postos a prova e agora ele vive de matança </p>
+                    <img src="/imagens/luan/guto_barbosa.Avatar.webp" alt="" class = "imagem-personagens">
+                    </div>
+                </li>
+                <hr>
+                <li id = "jason-osama">
+                    <h3>Jason Osama</h3>
+                    <div>
+                    <p>O pai dele morreu numa luta de boxe, me deixando só com minha mãe. Eles passaram por momentos difíceis tendo que trabalhar bem cedo pra sustentar a família, porém a família se encontra melhor hoje em dia tendo seu apartamento e seu papagaio </p>
+                    <img src="/imagens/logan/jason_osama.Avatar.webp" alt="" class = "imagem-personagens">
+                    </div>
+                </li>
+                <hr>
+                <li id = "john-holly">
+                    <h3 >John Holly</h3>
+                    <div>                
+                    <p>John Holly, se juntou a agência quando a equipe dos Heróis do Amanhã saíram para a missão em Kyoto. Sendo uma pessoa sozinha da vida, aceitou entrar na agência princialmente para achar seu pai, William Holly, que está perdido pelo tempo. Nesse tempo ele fez outras missões pela agência e estudou os princípios do tempo para tentar localizar seu pai. Ele recebeu outras missões que estavam em aberto, como a de DB.Copper, o qual o futuro diretor da agência, Adam Mikye, trabalhava para encontrá-lo, porém nunca achou, somente algumas pistas. Como uma missao de classe mais avançada, que envolvia casos de pessoas desconhecidas pelo planeta - o próprio  Jack Estripador é um desses casos- , John Holly não conseguiu achá-lo, mas adquiriu mais pistas, e espera o retorno de Adam Mikye para informá-lo, e que ele está em um lugar isolado no tempo. Além de cumprir essa missão paralela que nem Adam Mikye conseguiu, essa nova missão com os heróis, ele vê como uma ótima oportunidade para melhorar suas habilidades de tecnologia e ficar mais inteligente para conseguir descobrir e investigar novos métodos para achar seu pai. </p>
+                    <img src="/imagens/santabaia/john_holly.Avatar.webp" alt="" class = "imagem-personagens">
+                    </div>
+                </li>
+                <hr>
+                <li id = "lupin-iii">
+                    <h3 >Lupin III</h3>
+                    <div>
+                    <p>O CARA NÃO TEM LORE KKKKKKKKKK</p>
+                    <img src="/imagens/dede/lupin_iii.Avatar.webp" alt="" class = "imagem-personagens">
+                    </div> 
+                </li>
+                <hr>
+                <li id ="mei-lin">
+                    <h3 >Mei Lin</h3>
+                    <div>
+                    <p>A família de Mei Lin era pobre e vivia numa zona de combate. Desde criança, Mei demonstrava talento para consertar coisas, e com isso conseguiu melhorar a condição de vida da família, ficou conhecida pela cidade em que morava, porém eles moravam em uma zona de combate, por isso ela foi levada ao mundo das armas e começou a construir e consertar armas para as pessoas em troca de dinheiro, ja que armas pagavam melhor do que objetos normais, Mei Lin, apesar de tímida, gosta de utilizar roupas de alta custura e jóias, que são mais caras obviamente, por isso começou a vender cada vez mais armas, mas isso fez com que a sua família fosse presa, queriam monopolizar as armas da Mei Lin. Seus pais e seu irmão mais velhos eram submetidos a torturas para que a garota continuasse a trabalhar de graça, durante 5 meses Mei construía e consertava armas e via sua família sofrendo, porém seus pais criaram um plano para que seus filhos conseguissem fugir, Mei e seu irmão fogem, porém ele fica para trás para distrair os guardas, ela consegue fugir, porém nunca mais conseguiu contato com sua família. Aos 17 anos, Mei Lin foi recrutada por Adam Mikye para entrar na agência do tempo, ela era tímida no começo, mas logo fez uma amiga, Verônica, Mei a via como uma irmã mais velha, apesar de tudo ela sempre via o bem nas pessoas, porém Mei recusou o pedido da missão de Verônica e as duas brigaram e passaram a se ignorar. Quando ela fez 20 anos, Adam percebeu que era hora de treinar a garota para lutas.</p>
+                    <img src="/imagens/jana/mei_lin.Avatar.webp" alt="" class = "imagem-personagens">
+                    </div>
+                </li>
+                <hr>
+                <li id = "santiago-constantine">
+                    
+                    <h3>Santiago Constantine</h3>
+                    <div>
+                    <p>Constantine (2022):
+
+                        Sou um investigador particular que soluciona misteriosos casos em Londres. Viciado em fogo, especialista em suas propriedades, usos e tudo o que envolve combustão.
+                        
+                        Convivendo com o crime, conheço o pior da humanidade e não confio nas pessoas. Sempre desconfiei de coisas sobrenaturais, com bons olhos para as trevas que pairam sobre a sociedade.
+                        
+                        <br>Pessoas importantes:
+                        
+                        As pessoas com quem me importam já morreram. 
+                        
+                        <br>Lugares Favoritos: 
+                        
+                        Pequeno apartamento nos suburbios de Londres, bar do Moe, club de strip
+                        
+                        <br> Objetos importantes: 
+                        
+                        Isqueiro com detalhes em prata passado a gerações pela familia Constantine. 
+                        
+                        <br>Aparência: 
+                        
+                        Rosto até acima da média, mas nerfado por olheiras, barba por fazer e olhar cansado. Sempre usando um sobretudo bege com muitos bolsos, inclusive bolsos internos. Cicatrizes superficiais na pele espalhadas pelo corpo, sendo pequenos cortes e queimaduras. Fumante compulsivo, sempre com um cigarro na boca até nos momentos mais críticos.
+                        
+                        
+                        
+                       <br> CYBERPUNK: 
+                        
+                        Tudo mudou quando fui recrutado por um homem misterioso, Felix Parker. Realmente o mundo esconde coisas que a maioria das pessoas não faz ideia que existam. Magia, Ciência, Viagem no Tempo, não importa. O que mais chamou minha atenção foi o fato dele precisar de pessoas irrelevantes para a História. Então quer dizer que seguindo a vida que sempre levei sou um mero figurante no mundo? Não importa quantos casos eu resolva ou pessoas que ajude, nada muda? Mas esse é o investigador particular Santiago Constantine, então talvez exista uma versão de mim diferente desse destino. 
+                        
+                        Refleti sobre isso não no meu humilde apartamento cercado pela sujeira de Londres, mas sim passeando nas ruas do fodendo Japão feudal. Se fui tirado de onde vim por alguém que conhece o futuro, então lá realmente sou insignificante. Mas também significa que tem um lugar que não. 
+                        
+                        Bebida, cigarro, fogo, trabalho em equipe, missão completa. Estou mais motivado agora, não acho que o passado importa mais (o meu passado no caso, porque não da pra dizer que o Passado não importa viajando no tempo). Enfim, o foco agora são os manos e as missões. Mas sinto que vai ser mais perigoso a partir de agora,  vamos ter que ser mais fodas do que nunca.</p>
+                    <img src="/imagens/ryan/santiago_constantine.Avatar.webp" alt="" class = "imagem-personagens">
+                    </div>
+                </li>
+                <hr>
+                <li id = "simon-newgate">
+                    <h3>Simon Newgate</h3>
+                    <div>
+                    <p>Meu nome é Simon, nasci em Quebec no Canadá, e vivi minha vida toda no meio de apresentações e coisas do tipo. Meu pai Guy um mágico conhecido mundialmente por suas apresentações absurdas, sempre fez questão de me ensinar tudo sobre esse mundo, me acostumando a viver no centro das apresentações. Apesar de ser um mágico incrível, papai nunca conseguia me enganar com suas magicas, pois sempre acabava vendo algum truquezinho aqui ou ali, e ele aceitava dizendo que eu tenho bons olhos, no entanto ele utilizava um objeto muito estranho, que emanava algum tipo de energia, algo como um artefato, que nunca me permitia entender quais truques estavam por trás daquilo. Isso me deixou realmente intrigado, mas mesmo com muita insistência nunca tive uma pista sequer do que era aquilo em suas mãos, pois "um magico nunca revela seus truques". Agora após anos vivendo nossa arte ao redor do mundo, firmamos nosso circo em Lyon na França, local onde fiquei conhecido como olhos de gavião por pela minha mira excelente durante os números, onde atraio multidões para os shows mais exóticos do mundo ao lado do maior magico de todos.
+
+ 
+
+                        Acredito na existencia de algum tipo de deus devido a quase impossibilidade da junção de alguns atómos afim de formar materia sem a presença de um ser meticuloso o bastante para realizar isso, ja que sou muito ligado no estudo da Astronomia. Porém por ter conhecido inumeras culturas diferentes viajando pelo mundo não sei se posso escolher um ou se tem algum deus certo, Acredito que viver experiencias como as de circo que beiram o fantastico são insubstituiveis á vida das pessoas, estar em cima do palco no centro dos holofotes arrancando sorrisos de todos com um poder de influencia decorrente do carisma transmitido pelas minhas apresentações, enquanto a musica rola solta me sinto como uma estrela.
+                        
+                         
+                        
+                        Meu pai Daniel, meus 2 irmãos mais novos Kobe e Michael, minha falecida mãe Louise, scar o leão de que cuido em nosso circo, Bernard meu melhor amigo que é minha cobaia nos números do circo, além das inumeras cobras que sempre uso junto do figurino e nos numeros de show.
+                        
+                         
+                        
+                        Quebec, Lyon, Moscow, Roma, Munique, Hong Kong, Londres, Lisboa, Recife e ilhas bora bora.
+                        
+                         
+                        
+                        Meus objetos de show como espadas flamejantes, roupas fantasiosas de todos os tipos, ternos, cartolas, meu arco que uso para acertar as maçãs no topo da cabeça dos voluntarios e coisas desse tipo.
+                        
+                         
+                        
+                        Tenho uma altura media, beleza media mas um certo charme que minhas fãs valorizam muito. Sou loiro dos olhos claros por ter nascido no Canadá e ter puxado as caracteristicas do meu pai. Apesar de não ser muito forte tenho um bom fisico devido as apresentações e acrobacias. Meu cabelo ta na regua degrade mid fade fds.
+                        
+                         
+                        
+                        Tenho algumas queimaduras no corpo devido a um acidente com fogos de artificio quando era menor, alem de algumas picadas ao longo do corpo que obtive quando n tinha muita experiencia com cobras, uma cicatriz em forma de x bem no meu pulso por ter errado um numero em especifico uma vez. Alem de sentir um pouco as juntas das minhas articulações por conta das atividades.
+                        
+                         
+                        
+                        Afobia, meio hiperativo por querer me movimentar quase que o tempo todo alem de sempre encenar como se estivesse apresentando um show ou dançando em cima de uma musica. Tambem falo mais alto que as outras pessoas normalmente.
+                        
+                         
+                        
+                        Estranho objeto que meu pai usa para fazer as suas melhores magicas, de um jeito que nunca consigo descobrir o que tem por tras daquilo. Algo como um artefato vermelho que encontrei uma vez sem que ele soubesse, algo que emanava algum tipo de energia,</p>
+                    <img src="/imagens/pit/simon_newgate.Avatar.webp" alt="" class = "imagem-personagens">
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div id="terras">
+            <h2>Agências Reguladoras do Tempo (A.R.T)</h2>
+            <ul type = "none">
+                <li>
+                    <h3>Terra 1</h3>
+                    <div>
+                    <p class = "desc-terra">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam blanditiis voluptatum nesciunt soluta. Optio voluptates sint commodi inventore non soluta eligendi vel recusandae, aliquam, eius adipisci sunt reprehenderit veniam Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae dolores rerum laboriosam ipsam magnam culpa consectetur doloremque et alias fugiat reiciendis mollitia nam architecto ipsa ratione, ipsum distinctio amet voluptas!</p>
+
+                    <img src="/imagens/interrogacao.jpg" alt="">
+                    
+                    </div>
+                </li>
+                <hr>
+                <li>
+                    <h3>Terra 2</h3>
+                    <div>
+                        <p class = "desc-terra">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam blanditiis voluptatum nesciunt soluta. Optio voluptates sint commodi inventore non soluta eligendi vel recusandae, aliquam, eius adipisci sunt reprehenderit veniam Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae dolores rerum laboriosam ipsam magnam culpa consectetur doloremque et alias fugiat reiciendis mollitia nam architecto ipsa ratione, ipsum distinctio amet voluptas!</p>
+                        <img src="/imagens/interrogacao.jpg" alt="">
+                    </div>
+
+                </li>
+                <hr>
+                <li>
+                    <h3>Terra 3</h3>
+                    <div>
+                        <p class = "desc-terra">Desconhecido!</p>
+                        <img src="/imagens/interrogacao.jpg" alt="">
+                    </div>
+                </li>
+                <hr>
+                <li>
+                    <h3>Terra 4</h3>
+                    <div>
+                        <p class = "desc-terra">Desconhecido!</p>
+                        <img src="/imagens/interrogacao.jpg" alt="">
+                    </div>
+                </li>
+                <hr>
+                <li>
+                    <h3>Terra 5</h3>
+                    <div> 
+                        <p class = "desc-terra">Desconhecido!</p>
+                        <img src="/imagens/interrogacao.jpg" alt="">
+                    </div>
+                </li>
+                <hr>
+                <li>
+                    <h3>Terra 6</h3>
+                    <div>
+                        <p class = "desc-terra" id = "terra6">Desconhecido!</p>
+                        <img src="/imagens/interrogacao.jpg" alt="">
+                    </div>
+                </li>
+                <hr>
+                <li>
+                    <h3>Terra 7</h3>
+                    <div>
+                        <p class = "desc-terra">Desconhecido!</p>
+                        <img src="/imagens/interrogacao.jpg" alt="">
+                    </div>
+                </li>
+                <hr>
+                <li>
+                    <h3>Terra 8</h3>
+                    <div>
+                        <p class = "desc-terra">Desconhecido!</p>
+                        <img src="/imagens/interrogacao.jpg" alt="">
+                    </div>
+                </li>
+                <hr>
+                <li>
+                    <h3>Terra 9</h3>
+                    <div>
+                        <p class = "desc-terra">Desconhecido!</p>
+                        <img src="/imagens/interrogacao.jpg" alt="">
+                    </div>
+                </li>
+                <hr>
+                <li>
+                    <h3>Terra 10</h3>
+                    <div>
+                        <p class = "desc-terra">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam blanditiis voluptatum nesciunt soluta. Optio voluptates sint commodi inventore non soluta eligendi vel recusandae, aliquam, eius adipisci sunt reprehenderit veniam Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae dolores rerum laboriosam ipsam magnam culpa consectetur doloremque et alias fugiat reiciendis mollitia nam architecto ipsa ratione, ipsum distinctio amet voluptas!</p>
+                        <img src="/imagens/interrogacao.jpg" alt="">
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <footer class = "rodape">
+        <div>
+            <img src="/imagens/LOGO-rpgdosmanos-semfundo.png" class="marca-dagua">
+            <p>@2023-2024, RPG DOS MANOS Ltda, Todos os direitos reservados.</p>
+        </div>
+        <div class = "contato">
+            <ul type = "none" class = "redes-sociais">
+                <li>
+                    <a href="https://www.youtube.com/channel/UCi80RsR3dNJzs2AYqnTmXkw">
+                        <img src="/imagens/icones/youtube-icon.png">
+                        <h3>Youtube</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.twitch.tv/rpgdosmanos">
+                        <img src="/imagens/icones/twitch-icon.png">
+                        <h3>Twitch</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.tiktok.com/@rpg_dos_manos">
+                        <img src="/imagens/icones/tiktok-icon.jpg">
+                        <h3>TikTok</h3>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/rpgdosmanos">
+                        <img src="/imagens/icones/instagram-icon.jpg">
+                        <h3>Instagram</h3>
+                    </a>
+                </li>
+            </ul>
+            <p class ="email">Email para contato:<br><a href="mailto:rpdosmano@gmail.com">rpdosmano@gmail.com </a></p>
+        </div>
+
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.7.1/jszip.min.js"></script>
+    <script type="text/javascript" src="/js/home.js"></script>
+    <script type="module" src = "/js/login.js"></script>
+</body>
+</html>
